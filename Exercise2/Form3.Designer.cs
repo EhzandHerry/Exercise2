@@ -35,25 +35,25 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.dBJadwalAkademikDataSet2 = new Exercise2.DBJadwalAkademikDataSet2();
-            this.mahasiswaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.mahasiswaTableAdapter = new Exercise2.DBJadwalAkademikDataSet2TableAdapters.MahasiswaTableAdapter();
-            this.mahasiswaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.mahasiswaBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.mahasiswaBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.mahasiswaBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.dBJadwalAkademikDataSet2 = new Exercise2.DBJadwalAkademikDataSet2();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.mahasiswaBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.mahasiswaBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.mahasiswaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mahasiswaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.mahasiswaBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this.mahasiswaTableAdapter = new Exercise2.DBJadwalAkademikDataSet2TableAdapters.MahasiswaTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBJadwalAkademikDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,6 +110,16 @@
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 9;
             // 
+            // mahasiswaBindingSource4
+            // 
+            this.mahasiswaBindingSource4.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource4.DataSource = this.dBJadwalAkademikDataSet2;
+            // 
+            // dBJadwalAkademikDataSet2
+            // 
+            this.dBJadwalAkademikDataSet2.DataSetName = "DBJadwalAkademikDataSet2";
+            this.dBJadwalAkademikDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // textBox1
             // 
             this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource3, "jenis_kelamin", true));
@@ -118,6 +128,11 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 10;
             // 
+            // mahasiswaBindingSource3
+            // 
+            this.mahasiswaBindingSource3.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource3.DataSource = this.dBJadwalAkademikDataSet2;
+            // 
             // textBox2
             // 
             this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource2, "nama_mhs", true));
@@ -125,6 +140,11 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 11;
+            // 
+            // mahasiswaBindingSource2
+            // 
+            this.mahasiswaBindingSource2.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource2.DataSource = this.dBJadwalAkademikDataSet2;
             // 
             // textBox3
             // 
@@ -135,6 +155,16 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 12;
             // 
+            // mahasiswaBindingSource
+            // 
+            this.mahasiswaBindingSource.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource.DataSource = this.dBJadwalAkademikDataSet2;
+            // 
+            // mahasiswaBindingSource1
+            // 
+            this.mahasiswaBindingSource1.DataMember = "Mahasiswa";
+            this.mahasiswaBindingSource1.DataSource = this.dBJadwalAkademikDataSet2;
+            // 
             // textBox5
             // 
             this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource5, "alamat", true));
@@ -143,50 +173,20 @@
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 13;
             // 
-            // dBJadwalAkademikDataSet2
-            // 
-            this.dBJadwalAkademikDataSet2.DataSetName = "DBJadwalAkademikDataSet2";
-            this.dBJadwalAkademikDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // mahasiswaBindingSource
-            // 
-            this.mahasiswaBindingSource.DataMember = "Mahasiswa";
-            this.mahasiswaBindingSource.DataSource = this.dBJadwalAkademikDataSet2;
-            // 
-            // mahasiswaTableAdapter
-            // 
-            this.mahasiswaTableAdapter.ClearBeforeFill = true;
-            // 
-            // mahasiswaBindingSource1
-            // 
-            this.mahasiswaBindingSource1.DataMember = "Mahasiswa";
-            this.mahasiswaBindingSource1.DataSource = this.dBJadwalAkademikDataSet2;
-            // 
-            // mahasiswaBindingSource2
-            // 
-            this.mahasiswaBindingSource2.DataMember = "Mahasiswa";
-            this.mahasiswaBindingSource2.DataSource = this.dBJadwalAkademikDataSet2;
-            // 
-            // mahasiswaBindingSource3
-            // 
-            this.mahasiswaBindingSource3.DataMember = "Mahasiswa";
-            this.mahasiswaBindingSource3.DataSource = this.dBJadwalAkademikDataSet2;
-            // 
-            // mahasiswaBindingSource4
-            // 
-            this.mahasiswaBindingSource4.DataMember = "Mahasiswa";
-            this.mahasiswaBindingSource4.DataSource = this.dBJadwalAkademikDataSet2;
-            // 
             // mahasiswaBindingSource5
             // 
             this.mahasiswaBindingSource5.DataMember = "Mahasiswa";
             this.mahasiswaBindingSource5.DataSource = this.dBJadwalAkademikDataSet2;
             // 
+            // mahasiswaTableAdapter
+            // 
+            this.mahasiswaTableAdapter.ClearBeforeFill = true;
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(165, 347);
+            this.button1.Location = new System.Drawing.Point(165, 338);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(117, 46);
             this.button1.TabIndex = 14;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
@@ -211,12 +211,12 @@
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dBJadwalAkademikDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

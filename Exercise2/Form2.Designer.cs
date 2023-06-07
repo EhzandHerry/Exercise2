@@ -90,9 +90,9 @@
             this.notelpDataGridViewTextBoxColumn,
             this.alamatDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(56, 69);
+            this.dataGridView1.Location = new System.Drawing.Point(56, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(541, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(541, 119);
             this.dataGridView1.TabIndex = 0;
             // 
             // idmhsDataGridViewTextBoxColumn
@@ -127,9 +127,9 @@
             // 
             // Back
             // 
-            this.Back.Location = new System.Drawing.Point(56, 347);
+            this.Back.Location = new System.Drawing.Point(56, 259);
             this.Back.Name = "Back";
-            this.Back.Size = new System.Drawing.Size(75, 23);
+            this.Back.Size = new System.Drawing.Size(112, 48);
             this.Back.TabIndex = 1;
             this.Back.Text = "Back";
             this.Back.UseVisualStyleBackColor = true;
